@@ -1,0 +1,18 @@
+/* CSS for custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Width of vertical scrollbar */
+  height: 8px; /* Height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc; /* Color of scrollbar thumb */
+  border-radius: 4px; /* Border radius of scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa; /* Color of scrollbar thumb on hover */
+}

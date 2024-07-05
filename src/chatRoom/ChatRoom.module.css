@@ -1,0 +1,14 @@
+.ChatRoom {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.messageSheet {
+    flex-grow: 1;
+    padding: 10px 15px 10px 15px;
+    background-color:#0c1317;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}

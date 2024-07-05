@@ -1,0 +1,26 @@
+.Icon {
+    color: #0b3951;
+    font-size:30px;
+    margin-right: 1.5%;
+    cursor: pointer;
+}
+
+.Input {
+    width: 40%;
+    font-size: 16px;
+    border: 1px solid #5f5d5d;
+    background-color: #10222c;
+    color: #a29d9e;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.User {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    border-top: 1px solid #1e1548;
+    background: #09161d;
+}

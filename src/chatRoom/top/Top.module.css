@@ -1,0 +1,52 @@
+.SignIn {
+    width: 25%;
+    font-size: 16px;
+    border: 1px solid #5f5d5d;
+    background-color: #10222c;
+    color: #a29d9e;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.SignOut {
+    width: 15%;
+    font-size: 16px;
+    border: 1px solid #5f5d5d;
+    background-color: #10222c;
+    color: #a29d9e;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.Top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #1e1548;
+    background: #09161d;
+}
+
+.Name {
+    color: #1bc9c9;
+    font-size: 20px;
+    /* position: absolute; */
+    /* left: 5%; */
+    /* border: 1px solid #5f5d5d; */
+    background-color: #10222c;
+    border-radius: 0px;
+    padding: 10px 30px 10px 30px;
+    outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .SignIn {
+        width: 200px;
+    }
+
+    .SignOut {
+        width: 100px;
+    }
+}
